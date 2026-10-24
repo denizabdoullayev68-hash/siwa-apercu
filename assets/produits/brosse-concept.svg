@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 0 280 360" role="img" aria-labelledby="t">
+  <title id="t">Visuel conceptuel : brosse avec deux têtes en siwak (forme définitive à confirmer)</title>
+  <defs>
+    <linearGradient id="bois" x1="0" x2="1">
+      <stop offset="0" stop-color="#b9a074"/><stop offset=".5" stop-color="#dcc9a3"/><stop offset="1" stop-color="#b0966a"/>
+    </linearGradient>
+    <linearGradient id="manche" x1="0" x2="1">
+      <stop offset="0" stop-color="#1b2c24"/><stop offset=".45" stop-color="#34503f"/><stop offset="1" stop-color="#1b2c24"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="160" cy="346" rx="78" ry="7" fill="#24382f" opacity=".12"/>
+  <g transform="rotate(-22 160 190)">
+    <path d="M147 132 h26 l-4 196 a9 9 0 0 1 -18 0 Z" fill="url(#manche)"/>
+    <rect x="118" y="84" width="84" height="58" rx="22" fill="url(#manche)"/>
+    <g>
+      <rect x="135" y="38" width="24" height="56" rx="6" fill="url(#bois)"/>
+      <rect x="162" y="38" width="24" height="56" rx="6" fill="url(#bois)"/>
+    </g>
+    <g stroke="#efe5cf" stroke-width="1.8" stroke-linecap="round">
+      <path d="M137 40 l-4 -14 M141 40 l-1 -17 M145 40 l0 -18 M149 40 l1 -18 M153 40 l3 -16 M157 41 l5 -12"/>
+      <path d="M164 40 l-4 -14 M168 40 l-1 -17 M172 40 l0 -18 M176 40 l1 -18 M180 40 l3 -16 M184 41 l5 -12"/>
+    </g>
+    <g stroke="#9c8358" stroke-width="1.2" opacity=".55"><path d="M147 48 v40 M174 48 v40"/></g>
+  </g>
+</svg>
